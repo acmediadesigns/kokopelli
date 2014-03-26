@@ -29,7 +29,7 @@ function twentythirteen_custom_header_setup() {
 		'default-image'          => '%s/images/headers/circle.png',
 
 		// Set height and width, with a maximum value for the width.
-		'height'                 => 230,
+		'height'                 => 400,
 		'width'                  => 1600,
 
 		// Callbacks for styling the header and the admin preview.
@@ -170,7 +170,7 @@ function twentythirteen_admin_header_style() {
 		max-width: 1040px;
 		<?php
 		if ( ! empty( $header_image ) || display_header_text() ) {
-			echo 'min-height: 230px;';
+			echo 'min-height: 400px;';
 		} ?>
 		width: 100%;
 	}
@@ -199,7 +199,7 @@ function twentythirteen_admin_header_style() {
 		text-shadow: none;
 	}
 	.default-header img {
-		max-width: 230px;
+		max-width: 400px;
 		width: auto;
 	}
 	</style>

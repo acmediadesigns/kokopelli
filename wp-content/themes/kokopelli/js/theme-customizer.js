@@ -28,7 +28,7 @@
 					'position': 'absolute'
 				} );
 			} else {
-				$( '.home-link' ).css( 'min-height', '230px' );
+				$( '.home-link' ).css( 'min-height', '400px' );
 				$( '.site-title, .site-description' ).css( {
 					'clip': 'auto',
 					'color': to,
