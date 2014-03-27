@@ -834,7 +834,12 @@ img.wp-smiley,
 
 .site-header {
 	position: relative;
+  height: 158px;
   border-bottom: 6px #ff7200 solid;
+}
+
+.site-header.home {
+  min-height: 500px;
 }
 
 .site-header .home-link {
@@ -842,28 +847,31 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 350px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
   text-shadow: 0 0 8px #000;
 }
 
-.site-header .site-title:hover {
-	text-decoration: underline;
-}
-
 .site-title {
+  background: rgba(0,0,0,0.6);
 	font-size: 60px;
-	font-weight: bold;
 	line-height: 1;
-	margin: 0;
-	padding: 58px 0 10px;
+  font-family: "ProximaLight", Helvetica, sans-serif;
+	margin: 100px auto 0 auto;
+	padding: 30px 100px;
+  text-align: center;
+  text-shadow: 0 0 8px #000;
 }
 
 .site-description {
 	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0;
+}
+
+.site-header .top {
+  background: #FFF;
+  height: 100px;
 }
 
 
@@ -889,6 +897,7 @@ div.nav-menu > ul {
 .nav-menu li {
 	display: inline-block;
 	position: relative;
+  padding-top: 4px;
 }
 
 .nav-menu li a {

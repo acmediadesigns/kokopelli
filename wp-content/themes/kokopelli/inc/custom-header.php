@@ -101,10 +101,10 @@ function twentythirteen_header_style() {
 	?>
 	<style type="text/css" id="twentythirteen-header-css">
 	<?php
-		if ( ! empty( $header_image ) ) :
+		if ( ! empty( $header_image ) && get_query_var('pagename') == '' ) :
 	?>
 		.site-header {
-			background: url(<?php header_image(); ?>) no-repeat scroll top;
+			background: url(<?php header_image(); ?>) no-repeat scroll bottom;
 			background-size: 1600px auto;
 		}
 	<?php
