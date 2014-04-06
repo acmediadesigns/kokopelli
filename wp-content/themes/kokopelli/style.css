@@ -874,6 +874,28 @@ img.wp-smiley,
   height: 100px;
 }
 
+.site-header .top a.koko-logo:link,
+.site-header .top a.koko-logo:visited {
+  float: left;
+  margin: 12px 0 0 10px;
+}
+
+.site-header .top .contact {
+  float: right;
+  color: #000;
+  max-height: 100px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.site-header .top .contact h2 {
+  margin: 0;
+}
+
+.site-header .top .contact h6 {
+  margin: 22px 0 0 0;
+  font-size: 18px;
+}
 
 /**
  * 4.2 Navigation
@@ -891,7 +913,7 @@ ul.nav-menu,
 div.nav-menu > ul {
   float: right;
 	margin: 0;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 
 .nav-menu li {

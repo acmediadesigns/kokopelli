@@ -34,7 +34,14 @@
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header <?php echo (get_query_var('pagename') == '') ? 'home' : ''; ?>" role="banner">
       <div class="top">
+        <a href="/" class="koko-logo">
+          <img src="/wp-content/themes/kokopelli/images/logo.png" />
+        </a>
 
+        <div class="contact">
+          <h6>contact us today!</h6>
+          <h2>747.999.KOKO</h2>
+        </div>
       </div>
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
