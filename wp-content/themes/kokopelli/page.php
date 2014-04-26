@@ -14,7 +14,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content <?php echo (get_query_var('pagename') == '') ? 'home' : ''; ?>" role="main">
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>

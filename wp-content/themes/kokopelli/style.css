@@ -884,6 +884,47 @@ img.wp-smiley,
 	max-width: 1040px;
 }
 
+table.about-us {
+  border-bottom: 0;
+}
+
+table.about-us tr td {
+  width: 50%;
+  vertical-align: top;
+  border: none;
+}
+
+table.chooseWork {
+  border: none;
+}
+
+table.chooseWork tr td {
+  border: none;
+  text-align: center;
+}
+
+/* Home */
+.site-content.home {
+  background: url('/wp-content/uploads/2014/04/home-bg.jpg') center center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+}
+
+h2.homeHeading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.home {
+  color: #FFF;
+}
+
+#post-2 {
+  background: rgba(0,0,0,0.6);
+}
 
 /**
  * 4.0 Header
@@ -898,11 +939,11 @@ img.wp-smiley,
 .site-header {
 	position: relative;
   height: 158px;
-  border-bottom: 6px #ff7200 solid;
 }
 
 .site-header.home {
   min-height: 500px;
+  border-bottom: 6px #ff7200 solid;
 }
 
 .site-header .home-link {
@@ -1130,12 +1171,15 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-header {
+  color: #ff7200;
 	margin-bottom: 30px;
 }
 
 .entry-title {
 	font-weight: normal;
 	margin: 0 0 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .entry-title a {
@@ -1146,6 +1190,31 @@ ul.nav-menu li:hover > ul,
 	color: #ea9629;
 }
 
+/* Hide page title */
+#post-38 .entry-header,
+#post-45 .entry-header,
+#post-23 .entry-header,
+#post-2 .entry-header {
+  display: none;
+}
+
+h1.mainHeading {
+  color: #ff7200;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h1.mainHeading span {
+  color: #000;
+}
+
+h5.subheading {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
 
 /**
  * 5.2 Entry Meta
