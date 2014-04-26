@@ -78,4 +78,31 @@
 			isRTL: body.is( '.rtl' )
 		} );
 	}
+
+    /**
+     * Newsletter signup
+     */
+    $('button#newsletterSignup').bind('click', function() {
+        var email = $("input[name='email_address']");
+
+        if(email.val() != '') {
+            $.ajax({
+                url: '/wp-content/themes/kokopelli/newsletter.php',
+                data: {
+                    email: email.val()
+                },
+                dataType: 'json'
+            })
+            .success(function(response) {
+                if(response.code == 100) {
+                    // Successful newsletter sign up
+                    email.prop('value', '');
+                    alert(response.message);
+                } else {
+                    // Error on sign up
+                    alert(response.message);
+                }
+            });
+        }
+    });
 } )( jQuery );
