@@ -18,20 +18,20 @@ if($email)
     // Check if email is used
     if($wpdb->num_rows == 0)
     {
-      $wpdb->insert('newsletter', [
+      $wpdb->insert('newsletter', array(
         'email_address' => $email,
         'created' => date('Y-m-d H:s:i')
-      ]);
+      ));
     }
 
-    $result = ['code' => 100, 'message' => 'Thank you for signing up!'];
+    $result = array('code' => 100, 'message' => 'Thank you for signing up!');
   }
   else {
-    $result = ['code' => 102, 'message' => 'Please provide a valid email address'];
+    $result = array('code' => 102, 'message' => 'Please provide a valid email address');
   }
 }
 else {
-  $result = ['code' => 101, 'message' => 'Please provide a email address'];
+  $result = array('code' => 101, 'message' => 'Please provide a email address');
 }
 
 echo json_encode($result);
