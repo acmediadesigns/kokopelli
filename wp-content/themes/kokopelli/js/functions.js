@@ -102,6 +102,9 @@
                     // Error on sign up
                     alert(response.message);
                 }
+            })
+            .error(function(error) {
+              console.log('Error saving newsletter: ' + error);
             });
         }
     });
