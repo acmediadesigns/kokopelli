@@ -35,7 +35,7 @@
 		<header id="masthead" class="site-header <?php echo (get_query_var('pagename') == '') ? 'home' : ''; ?>" role="banner">
       <div class="top">
         <a href="/" class="koko-logo">
-          <img src="/wp-content/themes/kokopelli/images/logo.png" />
+          <img src="/wp-content/themes/kokopelli/images/logo.jpg" />
         </a>
 
         <div class="contact">

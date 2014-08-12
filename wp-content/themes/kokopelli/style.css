@@ -1002,6 +1002,11 @@ section.home {
   margin: 12px 0 0 10px;
 }
 
+.site-header .top a.koko-logo:link img,
+.site-header .top a.koko-logo:visited img {
+  max-height: 80px;
+}
+
 .site-header .top .contact {
   float: right;
   color: #000;
@@ -3054,6 +3059,10 @@ footer.entry-meta {
 
   /* Hide contact in header */
   .site-header .top .contact {
+    display: none;
+  }
+
+  .site-info .newsletter {
     display: none;
   }
 
