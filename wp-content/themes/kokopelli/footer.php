@@ -24,7 +24,7 @@
             </tr>
             <tr>
               <td colspan="2" style="padding-top: 0;">
-                Stay up to date with all things KOKO Pelli
+                Stay up to date with all things Koko Pelli
               </td>
             </tr>
           </table>
