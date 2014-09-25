@@ -38,6 +38,12 @@
           <img src="/wp-content/themes/kokopelli/images/logo.jpg" />
         </a>
 
+        <div class="social">
+          <a href="https://www.facebook.com/kpembroidery" target="_blank">
+            <img src="/wp-content/themes/kokopelli/images/facebook-icon.jpg" alt="Facebook" />
+          </a>
+        </div>
+
         <div class="contact">
           <h6>contact us today!</h6>
           <h2>747.999.KOKO</h2>

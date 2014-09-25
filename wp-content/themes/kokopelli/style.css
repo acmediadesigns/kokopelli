@@ -1007,22 +1007,31 @@ section.home {
   max-height: 80px;
 }
 
+.site-header .top .social {
+  position: absolute;
+  top: 64px;
+  right: 20px;
+  text-align: right;
+}
+
 .site-header .top .contact {
   float: right;
   color: #000;
   max-height: 100px;
   text-align: right;
   margin-right: 20px;
+  margin-top: 12px;
 }
 
 .site-header .top .contact h2 {
+  font-size: 25px;
   margin: 0;
 }
 
 .site-header .top .contact h6 {
-  margin: 22px 0 0 0;
+  margin: 0;
   font-family: "ProximaLight";
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
